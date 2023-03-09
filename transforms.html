@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: blueviolet;
+            border: 10px solid black;
+            text-align: center;
+            color: aliceblue;
+            margin-bottom: 10px;
+            transition: all 1s ease-in-out;
+        }
+        .transformed:hover {
+            transform: translate(300px, 80px) rotate(40deg) scale(2,4);
+           
+        }
+        button {
+            background-color: brown;
+            color: aliceblue;
+            font-size: 22px;
+            padding: 5px 15px;
+            transition: all 1s linear;
+        }
+        button:hover{
+            background-color: aqua;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="original">one</div>
+    <div class="transformed">two</div>
+    <button class="transition">click me</button>
+</body>
+</html>
