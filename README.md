@@ -24,4 +24,8 @@ CSS property called animation which we can use to define custom animations purel
 To create our animation ..... we need two things: an animation property on the relevant HTML element, and a set of keyframes that describe the animation we're trying to build
 
 ex: animation: shapeshift 6s infinite
+
 The 6s indicates how long it should take to complete our animation, while the infinite ensures that the animation will play on loop, rather than stopping after one cycle
+
+This is the basic syntax for defining custom animations using keyframes. Inside of the curly braces, we can define several different keyframes, which describe the state of our div at different points in the animation
+
